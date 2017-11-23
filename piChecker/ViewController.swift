@@ -28,7 +28,8 @@ class ViewController: UIViewController {
             {
                 let alertController = UIAlertController(title: "YAY", message: "You did it!", preferredStyle: .alert)
                 
-                let defaultAction = UIAlertAction(title: "Nice job!", style: .cancel, handler: nil)
+                let defaultAction2 = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(defaultAction2)
                 
                 present(alertController, animated: true, completion: nil)
             }
